@@ -1,5 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/jshint_ruby.png)](http://badge.fury.io/rb/jshint_ruby)
 [![Build Status](https://travis-ci.org/StupidCodeFactory/jshint_ruby.png?branch=master)](https://travis-ci.org/StupidCodeFactory/jshint_ruby)
+[![Code Climate](https://codeclimate.com/repos/52dc98ba695680512c0037c6/badges/f8edcfbcaa41396e2b11/gpa.png)](https://codeclimate.com/repos/52dc98ba695680512c0037c6/feed)
+[![Dependency Status](https://gemnasium.com/StupidCodeFactory/jshint_ruby.png)](https://gemnasium.com/StupidCodeFactory/jshint_ruby)
 # JshintRuby
 
 API to lint your javascript source code from ruby, it ships with a copy of JSHint

@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "jshint_ruby"
   spec.version       = JshintRuby::VERSION
   spec.authors       = ["StupidCodeFactory"]
-  spec.email         = ["ymarquet@"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.email         = ["ymarquet@gmail.com"]
+  spec.description   = %q{API to lint your javascript source code from ruby}
+  spec.summary       = %q{API to lint your javascript source code from ruby, it ships with a copy of JSHint}
+  spec.homepage      = "https://github.com/StupidCodeFactory/jshint_ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

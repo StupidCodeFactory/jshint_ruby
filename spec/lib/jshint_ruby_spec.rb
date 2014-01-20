@@ -8,7 +8,7 @@ describe JshintRuby do
     let(:source) { File.open('spec/fixtures/source.js') }
 
     it 'is valid' do
-      expect(JshintRuby.run(source, {})).to be_valid
+      expect(JshintRuby.run(source)).to be_valid
     end
 
   end

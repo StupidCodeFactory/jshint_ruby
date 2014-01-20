@@ -24,7 +24,7 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-        source = 'spec/fixtures/source_with_errors.js'
+        source = File.open('spec/fixtures/source_with_errors.js')
         result = JshintRuby.run(source) # => <JshintRuby::Result:0x007f88f9084cb8 @valid=false, @errors=[{"id"=>"(error)", "raw"=>"Use '{a}' to compare with '{b}'.", "code"=>"W041", "evidence"=>"if (true == 1)", "line"=>3, "character"=>10, "scope"=>"(main)", "a"=>"===", "b"=>"true", "reason"=>"Use '===' to compare with 'true'."}]>
         result.valid?                   # false
         result.errors                   # [{"id"=>"(error)", "raw"=>"Use '{a}' to compare with '{b}'.", "code"=>"W041", "evidence"=>"if (true == 1)", "line"=>3, "character"=>10, "scope"=>"(main)", "a"=>"===", "b"=>"true", "reason"=>"Use '===' to compare with 'true'."}]

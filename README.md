@@ -5,7 +5,9 @@
 [![Coverage Status](https://coveralls.io/repos/StupidCodeFactory/jshint_ruby/badge.png)](https://coveralls.io/r/StupidCodeFactory/jshint_ruby)
 # JshintRuby
 
-API to lint your javascript source code from ruby, it ships with a copy of JSHint
+API to lint your javascript source code from ruby.
+* It ships with a copy of JSHint
+* It uses [ExecJS](https://github.com/sstephenson/execjs) under the hood and is heavily inspired on [execjs](linthttps://github.com/mintdigital/execjslint)
 
 ## Installation
 
